@@ -12,10 +12,11 @@ import { GifsService } from '../../services/gifs.service';
     (keyup.enter)="searchTag()"
     #txtTagInput
     >
-
   `,
   styleUrl: './search-box.component.css'
 })
+
+
 export class SearchBoxComponent {
 
   @ViewChild('txtTagInput')
