@@ -8,12 +8,10 @@
   [ngStyle]="{ display: hasLoaded ? '' : 'none' }"
   />
 
-  <img
+  <div
   *ngIf="!hasLoaded"
-  src="/gifs-app/src/assets/loader.svg"
-  height="35"
-  width="35"
-  class="mt-3"
-  />
+  class="loader  mt-3"
+  ></div>
 
 </div>
+
