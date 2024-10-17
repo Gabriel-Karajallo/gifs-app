@@ -17,4 +17,10 @@ export class SidebarComponent {
   searchTag( tag: string  ): void {
     this.gifService.searchTag( tag )
   }
+
+  isSidebarActive: boolean = false;
+
+  toggleSidebar() {
+    this.isSidebarActive = !this.isSidebarActive;
+  }
 }
